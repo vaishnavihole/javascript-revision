@@ -30,3 +30,8 @@ var marks = {
     sham: 56,
     ram: 77
 }
+
+// Boolean 
+var a = true;
+var b = false;
+console.log(a);
