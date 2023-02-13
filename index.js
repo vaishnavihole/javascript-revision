@@ -20,6 +20,13 @@ console.log(number1 + number2);
 var str1 = "This is a string";
 var str2 = 'This is a string';
 
-// Number data type
+// Numbers data type
 var num1 = 345;
 var num2 = 56.76;
+
+// Objects
+var marks = {
+    ravi: 34,
+    sham: 56,
+    ram: 77
+}
