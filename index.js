@@ -14,3 +14,7 @@
 var number1 = 25;
 var number2 = 34;
 console.log(number1 + number2);
+
+// 4. Data types in Javascript
+var str1 = "This is a string";
+var str2 = 'This is a string';
