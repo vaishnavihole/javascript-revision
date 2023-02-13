@@ -16,5 +16,10 @@ var number2 = 34;
 console.log(number1 + number2);
 
 // 4. Data types in Javascript
+// String Data type
 var str1 = "This is a string";
 var str2 = 'This is a string';
+
+// Number data type
+var num1 = 345;
+var num2 = 56.76;
