@@ -93,10 +93,23 @@ let y = 56;
 //  console.log(!false);
 //  console.log(!true);
 
+// Function in javascript
 
  function avg(a, b){
     return (a + b)/2;
  }
+ // DRY = Do not repeat yourself
 c1 = avg(4, 6);
 c2 = avg(14, 16);
-console.log(c1, c2)
+//console.log(c1, c2)
+
+// Conditionals in JavaScript
+
+let age = 34;
+if (age > 8){
+    console.log('You are not a kid');
+}
+
+else{
+    console.log('You are  a kid');
+}
