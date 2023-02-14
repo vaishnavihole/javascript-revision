@@ -36,7 +36,10 @@ var a = true;
 var b = false;
 console.log(a);
 
-
+// undefined
 var und;
 console.log(n);
 
+// null
+var  n = null;
+console.log(n);
