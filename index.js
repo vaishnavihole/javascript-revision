@@ -106,13 +106,13 @@ c2 = avg(14, 16);
 // Conditionals in JavaScript
 
 let age = 34;
-// Single  if statement
+// 1. Single  if statement
 if (age > 8){
     console.log('You are not a kid');
 }
 
 
-// If-else  statement
+// 2. If-else  statement
 // if (age > 8){
 //     console.log('You are not a kid');
 // }
@@ -120,3 +120,20 @@ if (age > 8){
 // else{
 //     console.log('You are  a kid');
 // }
+
+// 3. if-else ladder
+if (age > 32){
+    console.log('You are not a kid');
+}
+
+else if(age >26){
+    console.log(" Yes Bacche nahi rahe");
+}
+
+else if(age >22){
+    console.log("Bacche nahi rahe");
+}
+
+  else{
+    console.log("Bcche rahe");
+  }
