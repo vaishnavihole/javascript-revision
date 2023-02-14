@@ -95,21 +95,21 @@ let y = 56;
 
 // Function in javascript
 
- function avg(a, b){
-    return (a + b)/2;
- }
+//  function avg(a, b){
+//     return (a + b)/2;
+//  }
  // DRY = Do not repeat yourself
-c1 = avg(4, 6);
-c2 = avg(14, 16);
+// c1 = avg(4, 6);
+// c2 = avg(14, 16);
 //console.log(c1, c2)
 
 // Conditionals in JavaScript
 
-let age = 34;
+// let age = 34;
 // 1. Single  if statement
-if (age > 8){
-    console.log('You are not a kid');
-}
+// if (age > 8){
+//     console.log('You are not a kid');
+// }
 
 
 // 2. If-else  statement
@@ -122,18 +122,31 @@ if (age > 8){
 // }
 
 // 3. if-else ladder
-if (age > 32){
-    console.log('You are not a kid');
+// if (age > 32){
+//     console.log('You are not a kid');
+// }
+
+// else if(age >26){
+//     console.log(" Yes Bacche nahi rahe");
+// }
+
+// else if(age >22){
+//     console.log("Bacche nahi rahe");
+// }
+
+//   else{
+//     console.log("Bcche rahe");
+//   }
+//  console.log('End of ladder');
+
+// Loops
+
+let arr1 = [1,2,3,4,5,6,7];
+console.log(arr1);
+for(let i = 0;i<arr1.length;i++){
+    console.log(arr[i]);
 }
 
-else if(age >26){
-    console.log(" Yes Bacche nahi rahe");
-}
-
-else if(age >22){
-    console.log("Bacche nahi rahe");
-}
-
-  else{
-    console.log("Bcche rahe");
-  }
+arr1.forEach(function(element){
+    console.log(element);
+})
