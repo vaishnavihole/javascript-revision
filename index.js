@@ -13,7 +13,7 @@
 
 var number1 = 25;
 var number2 = 34;
-console.log(number1 + number2);
+//console.log(number1 + number2);
 
 // 4. Data types in Javascript
 // String Data type
@@ -34,18 +34,28 @@ var marks = {
 // Boolean 
 var a = true;
 var b = false;
-console.log(a);
+//console.log(a);
 
 // undefined
 var und;
-console.log(n);
+//console.log(n);
 
 // null
 var  n = null;
-console.log(n);
+//console.log(n);
 
 // At a very high level, there are two types of data types in javascript
 // 1.Primitive = undefined, boolean, symbol, string, Number, null
 // 2.Reference = Arrays and Objects
 
 var arr = [1,2,3,4,5]
+// console.log(arr)
+
+//Operators in JavaScript
+// Arithmetic Operators
+var a = 34;
+var b = 56;
+console.log("The value of a + b is", a+b)
+console.log("The value of a - b is", a-b)
+console.log("The value of a * b is", a*b)
+console.log("The value of a / b is", a/b)
