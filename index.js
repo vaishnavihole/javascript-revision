@@ -35,3 +35,8 @@ var marks = {
 var a = true;
 var b = false;
 console.log(a);
+
+
+var und;
+console.log(n);
+
