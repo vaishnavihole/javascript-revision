@@ -55,10 +55,10 @@ var arr = [1,2,3,4,5]
 // Arithmetic Operators
 var a = 34;
 var b = 56;
-console.log("The value of a + b is", a+b)
-console.log("The value of a - b is", a-b)
-console.log("The value of a * b is", a*b)
-console.log("The value of a / b is", a/b)
+// console.log("The value of a + b is", a+b)
+// console.log("The value of a - b is", a-b)
+// console.log("The value of a * b is", a*b)
+// console.log("The value of a / b is", a/b)
 
 // Assignment Oprators
 var  c = b;
@@ -66,12 +66,18 @@ c += 2;
 c -= 2;
 c *= 2;
 c /= 2;
-console.log(c);
+// console.log(c);
 
-//  Comparsion oprators
+//  Comparsion operators
 let x = 34;
 let y = 56;
-console.log(x == y);
-console.log(x >= y);
-console.log(x <= y);
+// console.log(x == y);
+// console.log(x >= y);
+// console.log(x <= y);
+
+// Logical operators
+console.log(true && true)
+console.log(true && false)
+console.log(false && false)
+console.log(false && true)
 
