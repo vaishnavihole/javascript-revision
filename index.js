@@ -76,8 +76,13 @@ let y = 56;
 // console.log(x <= y);
 
 // Logical operators
-console.log(true && true)
-console.log(true && false)
-console.log(false && false)
-console.log(false && true)
+// console.log(true && true)
+// console.log(true && false)
+// console.log(false && false)
+// console.log(false && true)
+
+console.log(true || true)
+console.log(true || false)
+console.log(false || false)
+console.log(false || true)
 
