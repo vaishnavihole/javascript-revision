@@ -59,3 +59,11 @@ console.log("The value of a + b is", a+b)
 console.log("The value of a - b is", a-b)
 console.log("The value of a * b is", a*b)
 console.log("The value of a / b is", a/b)
+
+// Assignment Oprators
+var  c = b;
+c += 2;
+c -= 2;
+c *= 2;
+c /= 2;
+console.log(c);
