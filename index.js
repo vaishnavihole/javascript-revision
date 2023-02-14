@@ -142,11 +142,17 @@ let y = 56;
 // Loops
 
 let arr1 = [1,2,3,4,5,6,7];
-console.log(arr1);
-for(let i = 0;i<arr1.length;i++){
-    console.log(arr[i]);
-}
+// console.log(arr1);
+// for(let i = 0;i<arr1.length;i++){
+//     console.log(arr[i]);
+// }
 
-arr1.forEach(function(element){
-    console.log(element);
-})
+// arr1.forEach(function(element){
+//     console.log(element);
+// })
+
+let j = 0;
+while(j<arr.length){
+    console.log(arr[j]);
+    j ++;
+}
