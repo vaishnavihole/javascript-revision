@@ -67,3 +67,11 @@ c -= 2;
 c *= 2;
 c /= 2;
 console.log(c);
+
+//  Comparsion oprators
+let x = 34;
+let y = 56;
+console.log(x == y);
+console.log(x >= y);
+console.log(x <= y);
+
