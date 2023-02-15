@@ -216,6 +216,10 @@ let y = 56;
  let myLovelyString = "Harry is good boy"
  console.log(myLovelyString.length);
 
+ console.log(myLovelyString.indexOf("good"));
+
+
+
 
 
 
