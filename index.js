@@ -172,22 +172,27 @@ let y = 56;
 
 // Break Statement
 
-let arr1 = [1, 2, 3, 4, 5, 6, 7];
- for(let i = 0;i<arr1.length;i++){
-    if(i==2){
-        break;
-    }
-     console.log(arr[i]);
- }
+// let arr1 = [1, 2, 3, 4, 5, 6, 7];
+//  for(let i = 0;i<arr1.length;i++){
+//     if(i==2){
+//         break;
+//     }
+//      console.log(arr[i]);
+//  }
 
  // Continue statement
  let arr2 = [1, 2, 3, 4, 5, 6, 7];
- for(let i = 0;i<arr1.length;i++){
+ for(let i = 0;i<arr2.length;i++){
     if(i==2){
         continue;
     }
-     console.log(arr[i]);
+    //  console.log(arr[i]);
  }
+
+ // Arrays Method
+ let  myArr = ["Fan", "Camera", 53, null, true];
+
+ console.log(myArr.length);
 
 
 
