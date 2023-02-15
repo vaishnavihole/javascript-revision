@@ -41,14 +41,14 @@ var und;
 //console.log(n);
 
 // null
-var  n = null;
+var n = null;
 //console.log(n);
 
 // At a very high level, there are two types of data types in javascript
 // 1.Primitive = undefined, boolean, symbol, string, Number, null
 // 2.Reference = Arrays and Objects
 
-var arr = [1,2,3,4,5]
+var arr = [1, 2, 3, 4, 5]
 // console.log(arr)
 
 //Operators in JavaScript
@@ -61,7 +61,7 @@ var b = 56;
 // console.log("The value of a / b is", a/b)
 
 // Assignment Oprators
-var  c = b;
+var c = b;
 c += 2;
 c -= 2;
 c *= 2;
@@ -98,7 +98,7 @@ let y = 56;
 //  function avg(a, b){
 //     return (a + b)/2;
 //  }
- // DRY = Do not repeat yourself
+// DRY = Do not repeat yourself
 // c1 = avg(4, 6);
 // c2 = avg(14, 16);
 //console.log(c1, c2)
@@ -141,7 +141,7 @@ let y = 56;
 
 // Loops
 
-let arr1 = [1,2,3,4,5,6,7];
+let arr1 = [1, 2, 3, 4, 5, 6, 7];
 // console.log(arr1);
 // for(let i = 0;i<arr1.length;i++){
 //     console.log(arr[i]);
@@ -151,8 +151,21 @@ let arr1 = [1,2,3,4,5,6,7];
 //     console.log(element);
 // })
 
+
+// While loop
 let j = 0;
-while(j<arr.length){
+// while(j<arr.length){
+//     console.log(arr[j]);
+//     j ++;
+// }
+
+
+// Do while loop
+do {
     console.log(arr[j]);
-    j ++;
-}
+    j++;
+} while (j < arr.length);
+
+
+
+
