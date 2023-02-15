@@ -198,6 +198,10 @@ let y = 56;
  //pop method (last element remove)
  myArr.pop();
  console.log(myArr);
+
+ //push method
+ myArr.push("Vaishnavi")
+ console.log(myArr);
  
 
 
