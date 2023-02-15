@@ -216,14 +216,17 @@ let y = 56;
  let myLovelyString = "Harry is good boy"
 
  // length of string
- console.log(myLovelyString.length);
+ //console.log(myLovelyString.length);
 
 
 // indexOf
- console.log(myLovelyString.indexOf("good"));
+ //console.log(myLovelyString.indexOf("good"));
 
  // lastIndexOf
- console.log(myLovelyString.lastIndexOf("good"));
+ //console.log(myLovelyString.lastIndexOf("good"));
+
+ // Slice
+ console.log(myLovelyString.slice(0,3));
 
 
 
