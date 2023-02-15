@@ -206,6 +206,11 @@ let y = 56;
  //shift method
  myArr.shift()
  console.log(myArr);
+
+ //unshift method
+ const newLen = myArr.unshift("Vaishnavi")
+ console.log(newLen);
+ console.log(myArr);
  
 
 
