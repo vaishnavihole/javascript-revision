@@ -226,7 +226,12 @@ let y = 56;
  //console.log(myLovelyString.lastIndexOf("good"));
 
  // Slice
- console.log(myLovelyString.slice(0,3));
+ //console.log(myLovelyString.slice(0,3));
+
+ // replace method
+  d = myLovelyString.replace("Harry", "Ram")
+  d = d.replace("good", "bad")
+ console.log();
 
 
 
