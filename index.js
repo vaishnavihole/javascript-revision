@@ -141,11 +141,14 @@ let y = 56;
 
 // Loops
 
-let arr1 = [1, 2, 3, 4, 5, 6, 7];
-// console.log(arr1);
-// for(let i = 0;i<arr1.length;i++){
-//     console.log(arr[i]);
-// }
+// let arr1 = [1, 2, 3, 4, 5, 6, 7];
+// // console.log(arr1);
+//  for(let i = 0;i<arr1.length;i++){
+//     if(i==2){
+//         break;
+//     }
+//      console.log(arr[i]);
+//  }
 
 // arr1.forEach(function(element){
 //     console.log(element);
@@ -153,7 +156,7 @@ let arr1 = [1, 2, 3, 4, 5, 6, 7];
 
 
 // While loop
-let j = 0;
+// let j = 0;
 // while(j<arr.length){
 //     console.log(arr[j]);
 //     j ++;
@@ -161,10 +164,21 @@ let j = 0;
 
 
 // Do while loop
-do {
-    console.log(arr[j]);
-    j++;
-} while (j < arr.length);
+// do {
+//     console.log(arr[j]);
+//     j++;
+// } while (j < arr.length);
+
+
+// Break Statement
+
+let arr1 = [1, 2, 3, 4, 5, 6, 7];
+ for(let i = 0;i<arr1.length;i++){
+    if(i==2){
+        break;
+    }
+     console.log(arr[i]);
+ }
 
 
 
