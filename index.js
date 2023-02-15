@@ -214,9 +214,18 @@ let y = 56;
 
  // String method in JavaScript
  let myLovelyString = "Harry is good boy"
+
+ // length of string
  console.log(myLovelyString.length);
 
+
+// indexOf
  console.log(myLovelyString.indexOf("good"));
+
+ // lastIndexOf
+ console.log(myLovelyString.lastIndexOf("good"));
+
+
 
 
 
