@@ -192,7 +192,13 @@ let y = 56;
  // Arrays Method
  let  myArr = ["Fan", "Camera", 53, null, true];
 
+ // length
  console.log(myArr.length);
+
+ //pop method (last element remove)
+ myArr.pop();
+ console.log(myArr);
+ 
 
 
 
