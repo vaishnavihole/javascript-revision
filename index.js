@@ -193,25 +193,28 @@ let y = 56;
  let  myArr = ["Fan", "Camera", 53, null, true];
 
  // length
- console.log(myArr.length);
+ //console.log(myArr.length);
 
  //pop method (last element remove)
  myArr.pop();
- console.log(myArr);
+ //console.log(myArr);
 
  //push method
  myArr.push("Vaishnavi")
- console.log(myArr);
+ //console.log(myArr);
 
  //shift method
  myArr.shift()
- console.log(myArr);
+ //console.log(myArr);
 
  //unshift method
  const newLen = myArr.unshift("Vaishnavi")
- console.log(newLen);
- console.log(myArr);
- 
+//  console.log(newLen);
+//  console.log(myArr);
+
+ // String method in JavaScript
+ let myLovelyString = "Harry is good boy"
+ console.log(myLovelyString.length);
 
 
 
