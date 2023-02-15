@@ -231,7 +231,7 @@ let y = 56;
  // replace method
   d = myLovelyString.replace("Harry", "Ram")
   d = d.replace("good", "bad")
- console.log();
+ console.log(d, myLovelyString);
 
 
 
