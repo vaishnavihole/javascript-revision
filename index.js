@@ -240,6 +240,7 @@ let y = 56;
  console.log(myDate.getFullYear());
  console.log(myDate.getDay());
  console.log(myDate.getMinutes());
+ console.log(myDate.getHours());
 
 
 
