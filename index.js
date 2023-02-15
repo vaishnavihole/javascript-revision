@@ -230,8 +230,13 @@ let y = 56;
 
  // replace method
   d = myLovelyString.replace("Harry", "Ram")
-  d = d.replace("good", "bad")
- console.log(d, myLovelyString);
+  // d = d.replace("good", "bad")
+ // console.log(d, myLovelyString);
+
+ // Date in js
+ let myDate = new Date();
+ console.log(myDate);
+
 
 
 
