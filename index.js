@@ -202,6 +202,10 @@ let y = 56;
  //push method
  myArr.push("Vaishnavi")
  console.log(myArr);
+
+ //shift method
+ myArr.shift()
+ console.log(myArr);
  
 
 
