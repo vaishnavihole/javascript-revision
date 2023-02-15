@@ -236,6 +236,8 @@ let y = 56;
  // Date in js
  let myDate = new Date();
  console.log(myDate);
+ console.log(myDate.getTime());
+
 
 
 
