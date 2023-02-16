@@ -244,7 +244,9 @@ let y = 56;
 
 // JS DOM Manipulation
 
-
+// DOM manipulation
+let elem = document.getElementById('click');
+console.log(elem);
 
 
 
