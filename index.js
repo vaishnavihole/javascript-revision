@@ -298,6 +298,12 @@ firstContainer.addEventListener('mousedown', function(){
     console.log("Mouse down when clicked on   container");
 })
 
+// JavaScript Local Storage
+
+localStorage.setItem('name', 'vaishnavi')
+localStorage.getItem('name')
+
+
 
 
 
