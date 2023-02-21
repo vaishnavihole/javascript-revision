@@ -266,6 +266,10 @@ console.log(tn);
 sel = document.querySelector('.container')
 console.log(sel);
 
+sel = document.querySelectorAll('.container')
+console.log(sel);
+
+
 
 
 
