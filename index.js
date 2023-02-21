@@ -304,6 +304,13 @@ localStorage.setItem('name', 'vaishnavi')
 localStorage.getItem('name')
 
 
+//Json
+obj = {name: "vaishnavi", "length": 1}
+jso = JSON.stringify(obj)
+console.log(jso);
+
+
+
 
 
 
