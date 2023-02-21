@@ -302,6 +302,7 @@ firstContainer.addEventListener('mousedown', function(){
 
 localStorage.setItem('name', 'vaishnavi')
 localStorage.getItem('name')
+localStorage.removeItem('name')
 
 
 //Json
