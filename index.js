@@ -281,7 +281,12 @@ window.onload =  function(){
 }
 
 firstContainer.addEventListener('mouseover', function(){
-    console.log("Click on container");
+    console.log("Mouse on container");
+})
+
+
+firstContainer.addEventListener('mouseout', function(){
+    console.log("Mouse out  of container");
 })
 
 
