@@ -250,12 +250,15 @@ console.log(elem);
 
 
 let elemClass = document.getElementsByClassName('container');
-console.log(elemClass);
+//console.log(elemClass);
 //elemClass[0].style.background = "yellow";
 elemClass[0].classList.add('bg-primary')
 elemClass[0].classList.add('text-success')
-console.log(elem.innerHTML);
-console.log(elem.innerText);
+//console.log(elem.innerHTML);
+//console.log(elem.innerText);
+
+tn = document.getElementsByTagName('button')
+console.log(tn);
 
 
 
