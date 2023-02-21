@@ -294,6 +294,11 @@ firstContainer.addEventListener('mouseup', function(){
 })
 
 
+firstContainer.addEventListener('mousedown', function(){
+    console.log("Mouse down when clicked on   container");
+})
+
+
 
 
 
