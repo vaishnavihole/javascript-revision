@@ -280,8 +280,8 @@ window.onload =  function(){
     console.log('The document was loaded');
 }
 
-firstContainer.addEventListener('click', function(){
-    console.log("Click hua");
+firstContainer.addEventListener('mouseover', function(){
+    console.log("Click on container");
 })
 
 
