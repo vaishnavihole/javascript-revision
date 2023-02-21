@@ -261,6 +261,12 @@ tn = document.getElementsByTagName('button')
 console.log(tn);
 
 
+// Selecting using Query
+
+sel = document.querySelector('.container')
+console.log(sel);
+
+
 
 
 
