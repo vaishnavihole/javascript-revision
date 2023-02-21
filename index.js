@@ -289,6 +289,10 @@ firstContainer.addEventListener('mouseout', function(){
     console.log("Mouse out  of container");
 })
 
+firstContainer.addEventListener('mouseup', function(){
+    console.log("Mouse up when clicked on   container");
+})
+
 
 
 
