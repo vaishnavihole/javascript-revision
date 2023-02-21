@@ -270,6 +270,15 @@ sel = document.querySelectorAll('.container')
 console.log(sel);
 
 
+// Events in js
+
+function clicked (){
+    console.log('The button was clicked');
+}
+
+
+
+
 
 
 
