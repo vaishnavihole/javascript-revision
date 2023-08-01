@@ -300,16 +300,21 @@ firstContainer.addEventListener('mousedown', function(){
 
 // JavaScript Local Storage
 
-localStorage.setItem('name', 'vaishnavi')
-localStorage.getItem('name')
-localStorage.removeItem('name')
-localStorage.clear()
+// localStorage.setItem('name', 'vaishnavi')
+// localStorage.getItem('name')
+// localStorage.removeItem('name')
+// localStorage.clear()
 
 
 //Json
-obj = {name: "vaishnavi", "length": 1}
-jso = JSON.stringify(obj)
-console.log(jso);
+// obj = {name: "vaishnavi", "length": 1}
+// jso = JSON.stringify(obj)
+// console.log(jso);
+
+// UNDEFINED VARAIBLE IN JS
+console.log(a);
+var a = 7;
+console.log(x);
 
 
 
